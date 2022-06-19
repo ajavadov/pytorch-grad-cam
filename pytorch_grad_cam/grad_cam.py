@@ -19,4 +19,5 @@ class GradCAM(BaseCAM):
                         target_category,
                         activations,
                         grads):
+        print("OOOOOOOOOOO")
         return np.mean(grads, axis=(2, 3))
